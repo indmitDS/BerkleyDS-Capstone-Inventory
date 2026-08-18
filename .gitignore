@@ -1,0 +1,51 @@
+# Kaggle credentials and environment secrets
+kaggle.json
+.kaggle/
+access_token
+.env
+.env.*
+!.env.example
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Generated model binaries and logs
+*.h5
+*.keras
+*.pkl
+*.pickle
+*.joblib
+logs/
+runs/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+~$*
